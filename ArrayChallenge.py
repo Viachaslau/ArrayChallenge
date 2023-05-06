@@ -1,4 +1,4 @@
-def ArrayChallenge(arr):
+def ArrayChallenge(arr): # arr - List of int. Each of item >= 0
     s_list = [] 
     s_list.append(arr[-1])
     k = 0 
@@ -15,6 +15,5 @@ def ArrayChallenge(arr):
             k += 1
             
     return max(s_list)
-
 
 print(ArrayChallenge(input()))
