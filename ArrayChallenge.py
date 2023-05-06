@@ -1,4 +1,4 @@
-def ArrayChallenge(arr): # arr - List of int. Each of item >= 0
+def ArrayChallenge(arr): # arr - List of int. Each of the items >= 0
     s_list = [] 
     s_list.append(arr[-1])
     k = 0 
